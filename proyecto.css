@@ -3,32 +3,46 @@ body{
     background-repeat: no-repeat;
     background-size: cover; 
 }
+.cabeza{
+    display: grid;
+    grid-area: "menu"
+    "hamburguesa";
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
 .menu{
     display: flex;
-    justify-content:flex-end ;
-}
-.menu-nombres{
-    background-color: rgb(245, 17, 17);
-    width: 900px;
-    
-}
-.nav-tabs{
-    width: 900px;
-}
-.hambur li{
-    display: flex;
-    flex-direction: row;
-    margin-right: 25px;
-    margin-left: 10px;
+    background: red;
+    padding-right: 8%;
+    border-radius: 6px;
+    height: 50px;
+    align-items: center;
+    grid-area: menu;
 
 }
-.hambur{
-    background: rgb(255, 244, 244);
-    height: 100px;
-    position: relative;
-    width: 900px;
-    display: flex;
-    margin-left: 396px;
-    
+li{
+    list-style: none;
+    padding: 10px;
+
+
+}
+.borde:hover{
+    border: black solid 2px;
+    height: 50px;
+    box-shadow: 1px -10px 15px 1px black;
+    border-radius: 6px 6px 6px 6px;
 }
 
+.hamburguesa{
+    grid-area: hamburguesa;
+}
+.hamburguesa ul{
+    background: white;
+    display: grid;
+    grid-template-areas: "uno dos tres"
+    "cuatro cinco seis";
+    border-radius: 6px;
+    margin-top: 190px;
+
+}
