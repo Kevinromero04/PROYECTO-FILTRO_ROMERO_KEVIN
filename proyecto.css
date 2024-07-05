@@ -1,7 +1,34 @@
 body{
-    background: url(https://i.scdn.co/image/ab67616d0000b2733cb695bfc1246bdf66161fce);
+    background: url(https://www.telemundo.com/sites/nbcutelemundo/files/styles/fit-760w/public/images/article/cover/2018/07/17/anuel-aa-1920x1080.jpg?ramen_itok=iqwQftIcTf);
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
+    background-size: cover; 
 }
+.menu{
+    display: flex;
+    justify-content:flex-end ;
+}
+.menu-nombres{
+    background-color: rgb(245, 17, 17);
+    width: 900px;
+    
+}
+.nav-tabs{
+    width: 900px;
+}
+.hambur li{
+    display: flex;
+    flex-direction: row;
+    margin-right: 25px;
+    margin-left: 10px;
+
+}
+.hambur{
+    background: rgb(255, 244, 244);
+    height: 100px;
+    position: relative;
+    width: 900px;
+    display: flex;
+    margin-left: 396px;
+    
+}
+
