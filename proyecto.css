@@ -1,24 +1,29 @@
+@font-face{
+    font-family: 'againts';
+    src: url(fuente/againts.otf);
+    font-size: normal;
+    font-weight: normal;
+}
+
 body{
-    background: url(https://www.telemundo.com/sites/nbcutelemundo/files/styles/fit-760w/public/images/article/cover/2018/07/17/anuel-aa-1920x1080.jpg?ramen_itok=iqwQftIcTf);
+    background: url(anuel.jpeg);
     background-repeat: no-repeat;
     background-size: cover; 
 }
 .cabeza{
-    display: grid;
-    grid-area: "menu"
-    "hamburguesa";
-    align-items: center;
+    display: flex;
     justify-content: flex-end;
-    width: 100%;
 }
 .menu{
     display: flex;
-    background: red;
+    background: rgb(236, 30, 30);
     padding-right: 8%;
-    border-radius: 6px;
+    border-radius: 0px 6px 6px 0px;
     height: 50px;
     align-items: center;
-    grid-area: menu;
+    width: 500px;
+    border-bottom: black solid 1px;
+    margin-top: 5px;
 
 }
 li{
@@ -27,6 +32,15 @@ li{
 
 
 }
+.inde{
+    background: rgb(236, 30, 30);
+    border-radius: 6px 0px 0px 6px;
+    height: 50px;
+    border-bottom: black solid 1px;
+    margin-top: 5px;
+    color: black;
+    
+}
 .borde:hover{
     border: black solid 2px;
     height: 50px;
@@ -34,15 +48,168 @@ li{
     border-radius: 6px 6px 6px 6px;
 }
 
-.hamburguesa{
-    grid-area: hamburguesa;
-}
-.hamburguesa ul{
+.hamburguesa {
     background: white;
     display: grid;
     grid-template-areas: "uno dos tres"
     "cuatro cinco seis";
-    border-radius: 6px;
-    margin-top: 190px;
+    border-radius: 0px 0px 0px 6px;
+    position: absolute;
+    width: 585px;
+    border: black solid 2PX;
+}
+#uno{
+    grid-area: uno;
+    transition: color;
+    transition-duration: 1s;
+}
+#dos{
+    grid-area: dos;
+}#tres{
+    grid-area: tres;
+}#cuatro{
+    grid-area: cuatro;
+}#cinco{
+    grid-area: cinco;
+}#seis{
+    grid-area: seis;
+}
+#uno a:hover{
+    color: blue;
+}
+#dos a:hover{
+    color: blue;
+}#tres a:hover{
+    color: blue;
+}#cuatro a:hover{
+    color: blue;
+}#cinco a:hover{
+    color: blue;
+}#seis:hover{
+    color: blue;
+}
+
+.inde:hover .esconde{
+    position: relative;
+    display: block;
+}
+.inde:hover{
+    height: 50px;
+    box-shadow: 1px -10px 15px 1px black;
+    border-radius: 6px 0px 0px 0px;
+}
+.esconde{
+    display: none;
+ }
+ .album:hover{
+    height: 50px;
+ }
+
+.hamburguesa:hover{
+    margin-top: 7px;
+    border: black solid 1px;
 
 }
+.division{
+    margin-top: 60px;
+    display: grid;
+    grid-template-areas: "izq dere";
+}
+.nombre{
+    font-family: "againts";
+    color: rgb(12, 32, 150);
+    margin-left: 30px;
+    rotate: -9deg;
+    width: 150px;
+
+}
+.izq{
+    display: flex;
+    flex-direction: column;
+    grid-area: izq;
+    justify-content: flex-start;
+    margin-left: 40px;
+
+}
+.izq h4{
+    color: blue;
+    font-family: "againts";
+    letter-spacing: 0.3em;
+    rotate: -9deg;
+    font-size: 30px;
+    width: 450px;
+}
+.dere{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: 180px;
+
+}
+.forma{
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 350px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0);
+}
+.cuadro{
+    display: flex;
+    width: 200px;
+    height: 100px;
+    background: rgb(255, 255, 255);
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+.izq p{
+    margin-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.5em;
+    width: 450px;
+    text-align: center;
+}
+.menu a{
+    text-decoration: none;
+    color: black
+}
+@keyframes change-color{
+    5%{content:url(emmanuel.jpg);}
+    10%{content: url(Llnm.jpg);}
+    15%{content: url(Llnm2.jpg);}
+    20%{content: url(los-dioses.jpg);}
+    25%{content: url(realhastalamuerte.jpg);}
+    30%{content: url(rompecorazones.jpg);}
+    35%{content: url(emmanuel.jpg);}
+    40%{content: url(Llnm.jpg);}
+    45%{content: url(Llnm2.jpg);}
+    50%{content: url(los-dioses.jpg);}
+    55%{content: url(realhastalamuerte.jpg);}
+    60%{content: url(rompecorazones.jpg);}
+    65%{content: url(emmanuel.jpg);}
+    70%{content: url(Llnm.jpg);}
+    75%{content: url(Llnm2.jpg);}
+    80%{content: url(los-dioses.jpg);}
+    85%{content: url(realhastalamuerte.jpg);}
+    90%{content: url(rompecorazones.jpg);}
+    95%{content: url(emmanuel.jpg);}
+    95%{content: url(Llnm.jpg);}
+
+}
+.anima{
+    display: flex;
+    width: 200px;
+    height: 250px;
+    background-image: url(Llnm2.jpg);
+    background-repeat: round;
+    animation: change-color 3s ease 0s infinite;
+}
+.hamburguesa a{
+    text-decoration: none;
+    color: black;
+}
+
