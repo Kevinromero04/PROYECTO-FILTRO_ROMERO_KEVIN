@@ -49,19 +49,13 @@ body{
     width: 270px;
     position: absolute;
     margin-top: 150px; 
-    margin-left: 1200px;  
+    margin-left: 1550px;
+    z-index: 1;  
 }
-#tour{
-    height: 350px;
-    width: 300px;
 
-}
 .tour h1{
     margin-top: 100px;
-    border: rgb(0, 21, 114) solid 5px;
     position: sticky;
-    border-radius: 2%;
-
 }
 .estatic{
     width: 30%;
@@ -75,7 +69,6 @@ body{
     justify-content: center;
     margin-left: 300px;
     align-items: center;
-    border: rgb(0, 21, 114) solid 5px;
     border-radius: 2%;
     position: sticky;
     width: 210px;

@@ -19,11 +19,10 @@ body{
     background: rgb(236, 30, 30);
     padding-right: 8%;
     border-radius: 0px 6px 6px 0px;
-    height: 50px;
+    height: 60px;
     align-items: center;
     width: 500px;
-    border-bottom: black solid 1px;
-    margin-top: 5px;
+    margin-top: 50px;
 
 }
 li{
@@ -35,15 +34,17 @@ li{
 .inde{
     background: rgb(236, 30, 30);
     border-radius: 6px 0px 0px 6px;
-    height: 50px;
-    border-bottom: black solid 1px;
-    margin-top: 5px;
+    height: 60px;
+    margin-top: 50px;
     color: black;
-    
+
+}
+.album{
+    margin-top: 7px;
 }
 .borde:hover{
     border: black solid 2px;
-    height: 50px;
+    height: 60px;
     box-shadow: 1px -10px 15px 1px black;
     border-radius: 6px 6px 6px 6px;
 }
@@ -56,6 +57,7 @@ li{
     border-radius: 0px 0px 0px 6px;
     position: absolute;
     width: 585px;
+    margin-top: 5px;
     border: black solid 2PX;
 }
 #uno{
@@ -92,9 +94,10 @@ li{
 .inde:hover .esconde{
     position: relative;
     display: block;
+    margin: 0px;
 }
 .inde:hover{
-    height: 50px;
+    height: 60px;
     box-shadow: 1px -10px 15px 1px black;
     border-radius: 6px 0px 0px 0px;
 }
@@ -106,8 +109,8 @@ li{
  }
 
 .hamburguesa:hover{
-    margin-top: 7px;
     border: black solid 1px;
+    margin-top: 12px;
 
 }
 .division{
@@ -149,17 +152,17 @@ li{
 .forma{
     display: flex;
     flex-direction: column;
-    height: 450px;
-    width: 350px;
+    height: 550px;
+    width: 450px;
     color: white;
     justify-content: center;
     align-items: center;
     background: rgb(0, 0, 0);
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .cuadro{
     display: flex;
-    width: 200px;
+    width: 300px;
     height: 100px;
     background: rgb(255, 255, 255);
     color: black;
@@ -203,11 +206,11 @@ li{
 }
 .anima{
     display: flex;
-    width: 200px;
-    height: 250px;
+    width: 300px;
+    height: 350px;
     background-image: url(Llnm2.jpg);
     background-repeat: round;
-    animation: change-color 3s ease 0s infinite;
+    animation: change-color 11s ease 0s infinite;
 }
 .hamburguesa a{
     text-decoration: none;
@@ -220,6 +223,9 @@ li{
     .alerta{
         display: block;
         color: red;
+        border: black solid 5px;
+        align-items: center;
+        margin-top: 290px;
     }
     .division{
         display: none;

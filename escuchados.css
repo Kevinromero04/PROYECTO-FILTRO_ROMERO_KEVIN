@@ -23,7 +23,7 @@ body, html {
     height: 100%;
     display: flex;
     flex-direction: column;
-    background: white;
+    background:radial-gradient(rgb(0, 0, 0),rgb(192, 192, 192),white);  
 }
 .derecha{
     display: flex;
@@ -31,9 +31,10 @@ body, html {
     justify-content: center;
     align-items: center;
     width: 35%;
-    height: 642px;
+    height: 1100px;
     color: rgb(255, 255, 255);
-    background:rgb(0, 0, 0);
+    background:radial-gradient(rgb(0, 0, 0),rgb(192, 192, 192),white);  
+    
     text-align: center;
     position: sticky;
     top: 0px;
@@ -45,13 +46,15 @@ ol{
     background-color: rgb(231, 230, 230);
     width: 800px;
     align-items: center;
+    margin-left: 140px;
 }
 li{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     border: black solid 1px;
     width: 250px;
     text-align: center;
     background: rgb(145, 144, 144);
+    margin-top: 30px;
 }
 .cuadro{
     display: flex;
