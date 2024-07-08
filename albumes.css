@@ -1,6 +1,10 @@
-body{
-    background: black;
-    color: white;
+body, html {
+    margin: 0;
+    color: white;    
+    padding: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(0, 0, 0);
 }
 @font-face{
     font-family: 'againts';
@@ -10,7 +14,6 @@ body{
 }
 .cabeza{
     width: 100%;
-
 }
 .nombre{
     display: flex;
@@ -19,9 +22,10 @@ body{
     color: rgb(255, 0, 0);
     font-family: 'againts';
     letter-spacing: 0.3em;
-
-    background-color: rgb(0, 21, 114);
     height: 150px;
+    font-size: 2rem;
+    background-position: center; 
+
     padding-right: 200px;
 }
 
@@ -32,7 +36,6 @@ body{
 
 }
 .music{
-    grid-area: uno;
     width: 70%;
     border-right: black solid;
 }
@@ -64,17 +67,21 @@ body{
     top: 0;
 
 }
+#video{
+    margin-left: 100px;
+}
+
 .music h2{
-    display: flex;
-    justify-content: center;
-    margin-left: 300px;
     align-items: center;
-    border-radius: 2%;
-    position: sticky;
+    font-size: 30px;
     width: 210px;
+    width: 400px;
+    text-align: center;
+    margin-left: 450px;
 }
 .music p{
     margin: 40px;
+    font-size: 1.2em;
 }
 h2, h1{
     color: rgb(255, 255, 255);

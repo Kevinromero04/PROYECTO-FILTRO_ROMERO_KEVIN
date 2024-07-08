@@ -4,15 +4,27 @@
     font-size: normal;
     font-weight: normal;
 }
-
+.ga-maamli-regular {
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  .rowdies-light {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
 body{
-    background: url(anuel.jpeg);
+    background: url(discos/anuel.jpeg);
     background-repeat: no-repeat;
     background-size: cover; 
 }
 .cabeza{
     display: flex;
     justify-content: flex-end;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 100;
+
 }
 .menu{
     display: flex;
@@ -37,6 +49,7 @@ li{
     height: 60px;
     margin-top: 50px;
     color: black;
+
 
 }
 .album{
@@ -120,10 +133,14 @@ li{
 }
 .nombre{
     font-family: "againts";
-    color: rgb(12, 32, 150);
+    color: rgb(0, 38, 255);
     margin-left: 30px;
     rotate: -9deg;
     width: 150px;
+    margin-left: 150px;
+    font-weight: 900;
+
+
 
 }
 .izq{
@@ -131,7 +148,7 @@ li{
     flex-direction: column;
     grid-area: izq;
     justify-content: flex-start;
-    margin-left: 40px;
+    margin-left: 150px;
 
 }
 .izq h4{
@@ -141,6 +158,8 @@ li{
     rotate: -9deg;
     font-size: 30px;
     width: 450px;
+    font-weight: 900;
+
 }
 .dere{
     display: flex;
@@ -155,6 +174,7 @@ li{
     height: 550px;
     width: 450px;
     color: white;
+    font-family: "Ga Maamli", sans-serif;
     justify-content: center;
     align-items: center;
     background: rgb(0, 0, 0);
@@ -162,6 +182,8 @@ li{
 }
 .cuadro{
     display: flex;
+    font-family: "Ga Maamli", sans-serif;
+    font-size: 2em;
     width: 300px;
     height: 100px;
     background: rgb(255, 255, 255);
@@ -170,10 +192,10 @@ li{
     align-items: center;
 }
 .izq p{
-    margin-top: 200px;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 80px;
+    font-family: "Ga Maamli", sans-serif;
     color: white;
-    font-size: 1.5em;
+    font-size: 40px;
     width: 450px;
     text-align: center;
 }
@@ -182,33 +204,33 @@ li{
     color: black
 }
 @keyframes change-color{
-    5%{content:url(emmanuel.jpg);}
-    10%{content: url(Llnm.jpg);}
-    15%{content: url(Llnm2.jpg);}
-    20%{content: url(los-dioses.jpg);}
-    25%{content: url(realhastalamuerte.jpg);}
-    30%{content: url(rompecorazones.jpg);}
-    35%{content: url(emmanuel.jpg);}
-    40%{content: url(Llnm.jpg);}
-    45%{content: url(Llnm2.jpg);}
-    50%{content: url(los-dioses.jpg);}
-    55%{content: url(realhastalamuerte.jpg);}
-    60%{content: url(rompecorazones.jpg);}
-    65%{content: url(emmanuel.jpg);}
-    70%{content: url(Llnm.jpg);}
-    75%{content: url(Llnm2.jpg);}
-    80%{content: url(los-dioses.jpg);}
-    85%{content: url(realhastalamuerte.jpg);}
-    90%{content: url(rompecorazones.jpg);}
-    95%{content: url(emmanuel.jpg);}
-    95%{content: url(Llnm.jpg);}
+    5% {content:url(discos/emmanuel.jpg);}
+    10%{content: url(discos/Llnm.jpg);}
+    15%{content: url(discos/Llnm2.jpg);}
+    20%{content: url(discos/los-dioses.jpg);}
+    25%{content: url(discos/realhastalamuerte.jpg);}
+    30%{content: url(discos/rompecorazones.jpg);}
+    35%{content:url(discos/emmanuel.jpg);}
+    40%{content: url(discos/Llnm.jpg);}
+    45%{content: url(discos/Llnm2.jpg);}
+    50%{content: url(discos/los-dioses.jpg);}
+    55%{content: url(discos/realhastalamuerte.jpg);}
+    60%{content: url(discos/rompecorazones.jpg);}
+    65%{content:url(discos/emmanuel.jpg);}
+    70%{content: url(discos/Llnm.jpg);}
+    75%{content: url(discos/Llnm2.jpg);}
+    80%{content: url(discos/los-dioses.jpg);}
+    85%{content: url(discos/realhastalamuerte.jpg);}
+    90%{content: url(discos/rompecorazones.jpg);}
+    95%{content:url(discos/emmanuel.jpg);}
+    95%{content: url(discos/Llnm.jpg);}
 
 }
 .anima{
     display: flex;
     width: 300px;
     height: 350px;
-    background-image: url(Llnm2.jpg);
+    background-image: url(discos/Llnm2.jpg);
     background-repeat: round;
     animation: change-color 11s ease 0s infinite;
 }
