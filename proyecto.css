@@ -212,4 +212,24 @@ li{
     text-decoration: none;
     color: black;
 }
-
+.alerta{
+    display: none;
+}
+@media(max-width: 600px){
+    .alerta{
+        display: block;
+        color: red;
+    }
+    .division{
+        display: none;
+    }
+    .nombre{
+        display: none;
+    }
+    .cabeza{
+        display: none;
+    }
+    body{
+        background: white;
+    }
+}

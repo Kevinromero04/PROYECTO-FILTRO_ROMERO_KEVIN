@@ -1,36 +1,47 @@
+body{
+    background: black;
+    color: white;
+}
+@font-face{
+    font-family: 'againts';
+    src: url(fuente/againts.otf);
+    font-size: normal;
+    font-weight: normal;
+}
 .cabeza{
     width: 100%;
+
 }
 .nombre{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: rgb(255, 0, 0);
+    font-family: 'againts';
+    letter-spacing: 0.3em;
+
     background-color: rgb(0, 21, 114);
     height: 150px;
     padding-right: 200px;
 }
 
 .container{
-    display: grid;
-    grid-template-areas: "uno dos";
-    grid-template-columns: 60% 40%;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+
 
 }
 .music{
     grid-area: uno;
-    border: red solid 2px;
-    height: 1900px;
+    width: 70%;
+    border-right: black solid;
 }
 .tour{
     grid-area: dos;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: rgb(52, 0, 148) solid 2px;
     height: 500px;
-    font-family: Arial, Helvetica, sans-serif;
-    position: sticky;
 
 }
 #foto{
@@ -38,15 +49,62 @@
     width: 270px;
     position: absolute;
     margin-top: 150px; 
-    margin-left: 1080px;  
+    margin-left: 1200px;  
 }
 #tour{
     height: 350px;
     width: 300px;
+
 }
 .tour h1{
     margin-top: 100px;
+    border: rgb(0, 21, 114) solid 5px;
+    position: sticky;
+    border-radius: 2%;
+
 }
 .estatic{
+    width: 30%;
+    height: 100%;
     position: sticky;
+    top: 0;
+
+}
+.music h2{
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    align-items: center;
+    border: rgb(0, 21, 114) solid 5px;
+    border-radius: 2%;
+    position: sticky;
+    width: 210px;
+}
+.music p{
+    margin: 40px;
+}
+h2, h1{
+    color: rgb(255, 255, 255);
+}
+.nombre h1{
+    color: black;
+}
+.alerta{
+    display: none;
+}
+@media(max-width: 600px){
+    .alerta{
+        display: block;
+        color: red;
+    }
+    body{
+        background: white;
+    }
+    .cabeza{
+        display: none;
+    }
+    .container{
+        display: none;
+    }
+
 }
