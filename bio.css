@@ -4,7 +4,7 @@ body, html {
     padding: 0;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
-    background: rgb(197, 195, 195);
+    background: radial-gradient(rgba(194, 194, 194, 0.849), rgb(255, 255, 255));
 }
 
 .cabeza {
@@ -29,14 +29,24 @@ body, html {
     text-align: center;
 }
 .inf{
+    margin-top: 20px;
+    margin-bottom: 20px;
     display: flex;
     margin-left: 5px;
+    border: black solid 3px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
 }
 .inf2{
     width: 75%;
 }
 .imag{
     width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 .right{
     display: flex;
@@ -57,6 +67,46 @@ body, html {
     background: white;
     border-radius: 3%;
 
+}
+.informacion{
+    display: flex;
+    margin-left: 5px;
+    border: black solid 3px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    height: auto;
+}
+.informacion2{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.informacion2 img{
+    height: 400px;
+}
+img{
+    border: black solid 4px;
+}
+.informacion3{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: auto;
+}
+.info{
+    width: 55%;
+
+}
+.info2{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info2 img{
+    height: 250px;
 }
 .alerta{
     display: none;
