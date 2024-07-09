@@ -252,5 +252,4 @@ Spotify Embedded Player
 Uso
 Para ver la biografía de Anuel AA, simplemente abre el archivo index.html en tu navegador web preferido. Asegúrate de tener una conexión a internet activa para reproducir las canciones mediante las incrustaciones de Spotify.
 
-Contribución
-Este proyecto está abierto a contribuciones y mejoras. Siéntete libre de forkear este repositorio, hacer cambios y enviar un pull request.
+
