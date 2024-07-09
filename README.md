@@ -216,7 +216,7 @@ Cuadro: <div class="cuadro"> con el título de la primera canción.
 Alerta: <div class="alerta"> con un mensaje indicando que la página no está disponible para dispositivos móviles.
 
 
-canciones.html:
+Biografia.html:
 
 README
 Descripción:
