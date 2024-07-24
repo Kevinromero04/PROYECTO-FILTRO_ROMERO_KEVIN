@@ -17,6 +17,10 @@ Deberas ejecutar este comando para descargar
 sudo apt install app https://github.com/Kevinromero04/PROYECTO-FILTRO_ROMERO_KEVIN.git
 ```
 
+# Tecnoogias  💻
+- Html 
+- Css
+
 ### Visualizacion
 ![Visualizacion](./ejecucion.jpg)
 
