@@ -22,7 +22,7 @@ sudo apt install app https://github.com/Kevinromero04/PROYECTO-FILTRO_ROMERO_KEV
 - Css
 
 ### Visualizacion
-![Visualizacion](./ejecucion.jpg)
+![Visualizacion](./discos/visual.png)
 
 
 Hecho por [Kevin_Romero](https://github.com/Kevinromero04)
