@@ -1,0 +1,124 @@
+body,
+html {
+    margin: 0;
+    color: rgb(0, 0, 0);
+    padding: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabeza {
+    width: 100%;
+    height: 250px;
+    background-image: url('discos/video.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.izquierda {
+    border-right: rgb(65, 55, 55) solid 4px;
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: radial-gradient(rgb(0, 0, 0), rgb(192, 192, 192), white);
+}
+
+.derecha {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+    background: radial-gradient(rgb(0, 0, 0), rgb(192, 192, 192), white);
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+ol {
+    color: black;
+    font-size: 20px;
+    border: black solid 1px;
+    background-color: rgb(231, 230, 230);
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+
+    padding: 50px;
+
+}
+
+li {
+    margin-bottom: 20px;
+    border: black solid 1px;
+    width: 100%;
+    max-width: 250px;
+
+    text-align: center;
+    background: rgb(145, 144, 144);
+    margin-top: 10px;
+}
+
+.cuadro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color: black;
+    width: 100%;
+    max-width: 350px;
+    background-color: white;
+}
+
+
+
+@media(max-width: 600px) {
+
+
+    body {
+        background: white;
+    }
+
+
+
+    .container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .izquierda,
+    .derecha {
+        width: 100%;
+
+        height: auto;
+
+        border-right: none;
+
+    }
+
+    ol {
+        width: 90%;
+        justify-content: center;
+        margin: 10px auto;
+
+    }
+
+    li {
+        margin-left: 30px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .cuadro {
+        width: 100%;
+    }
+}

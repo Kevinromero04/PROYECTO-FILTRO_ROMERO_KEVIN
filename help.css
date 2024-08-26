@@ -1,0 +1,70 @@
+/* Estilo del body */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://w0.peakpx.com/wallpaper/470/397/HD-wallpaper-music-anuel-aa.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* Asegura que la imagen de fondo no se mueva al hacer scroll */
+}
+
+/* Estilo del header */
+header {
+    width: 100%;
+    height: 250px;
+    background-image: url('discos/video.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Estilo de la clase ropa */
+.ropa {
+    border: rgb(207, 22, 22) solid 2px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+    gap: 5%;
+    padding-bottom: 80%;
+    /* Ajustar según sea necesario para que no sea excesivo */
+}
+
+/* Estilo de la clase camisa1 */
+.camisa1 {
+    border: black solid 2px;
+    text-align: center;
+    align-items: center;
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    /* Ajuste para eliminar el margen innecesario */
+    box-sizing: border-box;
+    /* Incluye el borde en el cálculo del ancho */
+}
+
+/* Estilo de elementos p dentro de camisa1 */
+.camisa1 p {
+    border-top: black solid 2px;
+    border-bottom: black solid 2px;
+    margin: 0;
+    /* Elimina márgenes adicionales */
+}
+
+/* Estilo del elemento con id hola */
+#hola {
+    width: 100%;
+}
+
+/* Estilo de la clase compra */
+.compra {
+    border: rgb(215, 7, 7) solid 2px;
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    align-items: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+    /* Incluye el padding en el cálculo del ancho */
+}
