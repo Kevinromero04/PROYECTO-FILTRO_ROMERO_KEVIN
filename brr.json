@@ -1,0 +1,20 @@
+[{
+    "id": 1,
+    "nombre": "Faces Yellow Edition Vinyl",
+    "precio": 50,
+    "color": "yellow",
+    "categoria": "vinilos",
+    "disponibilidad": true,
+    "cantidad": 10,
+    "imagen": "/images/t_1.PNG"
+  },{
+    "id": 1,
+    "nombre": "Faces Yellow Edition Vinyl",
+    "precio": 50,
+    "color": "yellow",
+    "categoria": "vinilos",
+    "disponibilidad": true,
+    "cantidad": 10,
+    "imagen": "/images/t_1.PNG"
+  }
+]

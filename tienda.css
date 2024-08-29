@@ -5,6 +5,7 @@ body{
     background-attachment: fixed;
     margin: 0;
     padding: 0;
+    background-image: url(https://www.orlandolatino.com/wp-content/uploads/2023/02/concierto-en-Orlando-2.jpg);
 }
 header{
     width: 100%;
@@ -21,16 +22,19 @@ header{
         padding: 5%;
         gap: 5%;
         padding-bottom: 80%;
+        color: rgb(0, 0, 0);
 
 }
 .camisa1{
     border: black solid 2px;
     text-align: center;
     align-items: center;
+    justify-content: center;
     width: 20%;
     display: flex;
     flex-wrap: wrap;
     margin: 50%;
+    background: white;  
 }
 .camisa1, p{
     border-top: black solid 2px;
