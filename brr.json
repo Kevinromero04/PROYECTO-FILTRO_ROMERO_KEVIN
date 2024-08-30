@@ -1,20 +1,59 @@
 [{
     "id": 1,
-    "nombre": "Faces Yellow Edition Vinyl",
-    "precio": 50,
-    "color": "yellow",
-    "categoria": "vinilos",
+    "nombre": "Sudadera con capucha Real Hasta La Muerte",
+    "precio": 50.000,
+    "color": "Negro",
     "disponibilidad": true,
     "cantidad": 10,
-    "imagen": "/images/t_1.PNG"
+    "imagen": "https://www.anuelaa.com/cdn/shop/products/rhlmbrrlongsleeve_200x.jpg?v=1542764724"
   },{
-    "id": 1,
-    "nombre": "Faces Yellow Edition Vinyl",
-    "precio": 50,
-    "color": "yellow",
-    "categoria": "vinilos",
+    "id": 2,
+    "nombre": "RED AA TEE",
+    "precio": 30.000,
+    "color": "Negro",
     "disponibilidad": true,
     "cantidad": 10,
-    "imagen": "/images/t_1.PNG"
+    "imagen": "https://www.anuelaa.com/cdn/shop/files/anuelblackred_400x.jpg?v=1699064823"
+  },{
+    "id": 3,
+    "nombre": "RED AA TEE",
+    "precio": 30.000,
+    "color": "Negro",
+    "disponibilidad": true,
+    "cantidad": 10,
+    "imagen": "https://www.anuelaa.com/cdn/shop/products/image_700x.jpg?v=1676481399"
+  },{
+    "id": 4,
+    "nombre": "REAL HASTA LA MUERTE TEE",
+    "precio": 30.000,
+    "color": "BLACK / RED",
+    "disponibilidad": true,
+    "cantidad": 10,
+    "imagen": "https://www.anuelaa.com/cdn/shop/products/Black-Real-Hasta-La-Muerte-web_600x.jpg?v=1581102702"
+  }
+  ,{
+    "id": 5,
+    "nombre": "LEYANDA TROPHY TEE",
+    "precio": 25.000,
+    "color": "BLACK / RED",
+    "disponibilidad": true,
+    "cantidad": 10,
+    "imagen": "https://www.anuelaa.com/cdn/shop/products/image_79fef3ec-531e-4b12-b7bd-d69b830c03e4_700x.jpg?v=1669699153"
+  },{
+    "id": 6,
+    "nombre": "REAL HASTA LA MUERTE BEANIE",
+    "precio": 20.000,
+    "color": "BLACK / RED",
+    "disponibilidad": true,
+    "cantidad": 10,
+    "imagen": "https://www.anuelaa.com/cdn/shop/products/beanie_blackred_700x.jpg?v=1500488586"
+  },{
+    "id": 7,
+    "nombre": "SOY LEYENDA BLACK TEE",
+    "precio": 25.000,
+    "color": "BLACK / RED",
+    "disponibilidad": true,
+    "cantidad": 10,
+    "imagen": "https://www.anuelaa.com/cdn/shop/products/image0_700x.jpg?v=1669240097"
   }
 ]

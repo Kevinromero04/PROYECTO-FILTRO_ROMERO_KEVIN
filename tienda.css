@@ -1,13 +1,16 @@
-body{
+/* Estilo general del body */
+body {
     background-color: rgb(255, 255, 255);
+    background: radial-gradient(rgb(255, 255, 255), rgb(114, 113, 113));
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
     padding: 0;
-    background-image: url(https://www.orlandolatino.com/wp-content/uploads/2023/02/concierto-en-Orlando-2.jpg);
 }
-header{
+
+/* Estilo del header */
+header {
     width: 100%;
     height: 250px;
     background-image: url('discos/video.gif');
@@ -15,40 +18,77 @@ header{
     background-position: center;
     background-repeat: no-repeat;
 }
-.ropa{
-        border: rgb(207, 22, 22) solid 2px;
-        display: flex;
-        flex-wrap: wrap;
-        padding: 5%;
-        gap: 5%;
-        padding-bottom: 80%;
-        color: rgb(0, 0, 0);
+
+/* Estilo del contenedor */
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: rgb(0, 0, 0);
 
 }
-.camisa1{
-    border: black solid 2px;
+.ropa{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+.ropa img{
+    height: 280px;
+}
+.camisa1 {
+    overflow: hidden;
+    border-radius: 5%;
+    border: 2px solid black;
     text-align: center;
+    display: flex;
+    flex-direction: column; 
     align-items: center;
     justify-content: center;
-    width: 20%;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 50%;
-    background: white;  
+    width: 50%;
+    background: white;
+    height: 100%;
 }
-.camisa1, p{
-    border-top: black solid 2px;
-    border-bottom: black solid 2px;
+
+.camisa1 p {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
     margin: 0;
 }
-#hola{
-        width: 100%;
-    }
-.compra{
-    border: rgb(215, 7, 7) solid 2px;
-    height: 30px;
-    width: 120px;
+
+#hola {
+    width: 100%;
+}
+
+.compra {
+    border: 2px solid rgb(215, 7, 7);
+    height: 50px;
+    width:100%;
+    display: flex;
     text-align: center;
-    align-items: center;
+    align-items: center; 
+    justify-content: center; 
+}
+.nom_product{
+    border: 2px solid rgb(215, 7, 7);
+    height: 30px;
+    width: 100%;
+    text-align: center;
     padding-top: 5px;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+.carro{
+    background-color: black;
+    width: 100%;
+    height: 4vh;
+    margin: 0 0;
+    padding: 0 0 0 0;
+}
+.navbarp p{
+    color:white;
+    margin: 0;
+    padding: 0 0 0 0;
+
 }
