@@ -1,4 +1,19 @@
-/* Estilo general del body */
+@font-face{
+    font-family: 'againts';
+    src: url(fuente/againts.otf);
+    font-size: normal;
+    font-weight: normal;
+}
+.ga-maamli-regular {
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  .rowdies-light {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
 body {
     background-color: rgb(255, 255, 255);
     background: radial-gradient(rgb(255, 255, 255), rgb(114, 113, 113));
@@ -6,10 +21,11 @@ body {
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
+    font-family: "Rowdies", sans-serif;
+
     padding: 0;
 }
 
-/* Estilo del header */
 header {
     width: 100%;
     height: 250px;
@@ -19,16 +35,16 @@ header {
     background-repeat: no-repeat;
 }
 
-/* Estilo del contenedor */
 .contenedor {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap:10%;
     color: rgb(0, 0, 0);
-
+    margin: 5%;
 }
 .ropa{
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
     margin-top: 5%;
@@ -38,42 +54,61 @@ header {
 }
 .camisa1 {
     overflow: hidden;
-    border-radius: 5%;
+    border-radius: 10%;
     border: 2px solid black;
     text-align: center;
     display: flex;
     flex-direction: column; 
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 32vh;
     background: white;
-    height: 100%;
+    height: 40vh;
+    transition: .8s;
+    box-shadow: 0 0 30px rgb(0, 0, 0),
+    0 0 30px rgb(172, 171, 171),
+    0 0 30px rgb(124, 124, 124);
 }
-
 .camisa1 p {
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+
     margin: 0;
 }
+.camisa1:hover{    box-shadow: 0 0 3px rgb(56, 0, 0),
+    0 0 5px rgb(155, 0, 0),
+    0 0 7px rgb(189, 0, 0),
+    0 0 10px rgb(255, 0, 0),
+    0 0 12px rgb(255, 34, 34),
+    0 0 15px rgb(255, 84, 84);
 
-#hola {
+    width: 34vh;
+    height: 42vh;
+
+}
+.hola {
     width: 100%;
 }
+button{
+    height: 90vh;
+    width: 100%;
+}
+button:hover{
+    background-color: #4CAF50
 
+}
 .compra {
-    border: 2px solid rgb(215, 7, 7);
-    height: 50px;
+    height: 68px;
     width:100%;
     display: flex;
     text-align: center;
     align-items: center; 
     justify-content: center; 
 }
+
 .nom_product{
-    border: 2px solid rgb(215, 7, 7);
     height: 30px;
     width: 100%;
     text-align: center;
+    border: black solid 2px;
     padding-top: 5px;
     display: flex;
     align-items: center; 
@@ -82,13 +117,47 @@ header {
 .carro{
     background-color: black;
     width: 100%;
-    height: 4vh;
+    height: 10vh;
     margin: 0 0;
     padding: 0 0 0 0;
+    display: flex;
+    align-items: center;
+    position: sticky;
 }
-.navbarp p{
-    color:white;
-    margin: 0;
-    padding: 0 0 0 0;
+.navbarp {
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    width: 100%;
+    font-family: "againts";
+    letter-spacing: 0.4em;
+}
+#logo_carro img{
+    height:60px;
+    position: sticky;
 
+
+}
+#logo{
+
+    height: 50px;
+    width: 100%;
+    padding-top: 12px;
+}
+.navbarp a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+}
+#discos{
+    margin: 10px 0px 8px 0px;
+    border-radius: 10%;
+    height: 90%;
+    width: 90%;
+}
+#boton_disc{
+    height: auto;
 }

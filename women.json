@@ -1,0 +1,66 @@
+{
+    "1": {
+      "nombre": "WOMEN'S BLACK CROP TOP REAL HASTA LA MUERTE TEE",
+      "precio": 25.000,
+      "disponibilidad": true,
+      "cantidad": 10,
+      "imagen": "https://www.anuelaa.com/cdn/shop/products/image_18b79b37-e397-4499-a449-9fd4166eb379_700x.jpg?v=1653159761"
+    },
+    "2": {
+      "nombre": "REAL HASTA LA MUERTE BLACK WOMEN'S LEGGINGS",
+      "precio": 25.000,
+      "disponibilidad": true,
+      "cantidad": 10,
+      "imagen": "https://www.anuelaa.com/cdn/shop/products/leggings_08bd17e4-4bd0-4a66-936b-a38fdce20ce5_700x.jpg?v=1581103520"
+    },
+    "3": {
+      "nombre": "WOMEN'S BLACK & WHITE RHLM COMFY JOGGERS",
+      "precio": 30.000,
+      "disponibilidad": true,
+      "cantidad": 10,
+      "imagen": "https://www.anuelaa.com/cdn/shop/products/image_19cf7bfd-9bcd-45f8-ae4d-2649a25f15d6_700x.jpg?v=1653159344"
+    },
+    "4": {
+      "nombre": "BLACK RHLM WOMEN'S TRACK PANTS",
+      "precio": 30.000,
+      "disponibilidad": true,
+      "cantidad": 10,
+      "imagen": "https://www.anuelaa.com/cdn/shop/products/Black-Real-Hasta-La-Muerte-web_600x.jpg?v=1581102702"
+    },
+    "5": {
+      "nombre": "BLACK/PINK BEBSITA",
+      "precio": 20.000,
+      "disponibilidad": true,
+      "cantidad": 10,
+      "imagen": "https://www.anuelaa.com/cdn/shop/products/IMG_5341_700x.jpg?v=1573602233"
+    },
+    "6": {
+      "nombre": "RED RHLM WOMEN'S LIGHTWEIGHT SHORTS",
+      "precio": 20.000,
+      "disponibilidad": true,
+      "cantidad": 10,
+      "imagen": "https://www.anuelaa.com/cdn/shop/products/IMG_7529_480x.jpg?v=1606005585"
+    },
+    "7": {
+      "nombre": "REAL HASTA LA MUERTE WOMEN'S CROP HOODIE",
+      "precio": 40.000,
+      "disponibilidad": true,
+      "cantidad": 10,
+      "imagen": "https://www.anuelaa.com/cdn/shop/products/crophoodie_700x.jpg?v=1542938154"
+    },
+    "8": {
+      "nombre": "REAL HASTA LA MUERTE WOMEN'S TEE - PINK",
+      "precio": 20.000,
+      "disponibilidad": true,
+      "cantidad": 10,
+      "imagen": "https://www.anuelaa.com/cdn/shop/products/rhlmwomensteerosegold_700x.jpg?v=1542937147"
+    },
+    "9": {
+      "nombre": "BLACK RHLM WOMENS LIGHTWEIGHT SHORTS",
+      "precio": 20.000,
+      "disponibilidad": true,
+      "cantidad": 10,
+      "imagen": "https://www.anuelaa.com/cdn/shop/products/IMG_6244_700x.jpg?v=1606005117"
+    }
+  }
+  
