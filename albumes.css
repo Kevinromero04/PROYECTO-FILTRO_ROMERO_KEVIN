@@ -6,16 +6,19 @@ body, html {
     font-family: Arial, Helvetica, sans-serif;
     background: rgb(0, 0, 0);
 }
-@font-face{
+
+@font-face {
     font-family: 'againts';
     src: url(fuente/againts.otf);
     font-size: normal;
     font-weight: normal;
 }
-.cabeza{
+
+.cabeza {
     width: 100%;
 }
-.nombre{
+
+.nombre {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,86 +27,172 @@ body, html {
     letter-spacing: 0.3em;
     height: 150px;
     font-size: 2rem;
-    background-position: center; 
-
+    background-position: center;
     padding-right: 200px;
 }
 
-.container{
+/* Estilos generales para el contenedor */
+.container {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
-
-
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas más pequeñas */
 }
-.music{
+
+.music {
     width: 70%;
     border-right: black solid;
+    box-sizing: border-box; /* Incluye el borde en el cálculo del ancho */
 }
-.tour{
+
+.tour {
     grid-area: dos;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 500px;
-
+    box-sizing: border-box; /* Incluye el borde en el cálculo del alto */
 }
-#foto{
+
+#foto {
     height: 180px;
     width: 270px;
     position: absolute;
-    margin-top: 150px; 
-    margin-left: 1550px;
-    z-index: 1;  
+    margin-top: 150px;
+    margin-left: 1300px;
+    z-index: 1;
 }
 
-.tour h1{
+.tour h1 {
     margin-top: 100px;
     position: sticky;
 }
-.estatic{
+
+.estatic {
     width: 30%;
     height: 100%;
     position: sticky;
     top: 0;
-
+    box-sizing: border-box; /* Incluye el borde en el cálculo del ancho */
 }
-#video{
+
+#video {
     margin-left: 100px;
 }
 
-.music h2{
+.music h2 {
     align-items: center;
     font-size: 30px;
     width: 210px;
-    width: 400px;
+    max-width: 400px; /* Limita el ancho máximo */
     text-align: center;
     margin-left: 450px;
 }
-.music p{
+
+.music p {
     margin: 40px;
     font-size: 1.2em;
 }
-h2, h1{
+
+h2, h1 {
     color: rgb(255, 255, 255);
 }
-.nombre h1{
+
+.nombre h1 {
     color: black;
 }
-.alerta{
-    display: none;
+
+
+@media (max-width: 1300px) {
+    #foto {
+        margin-left: 1050px; 
+    }
+
 }
-@media(max-width: 600px){
-    .alerta{
-        display: block;
-        color: red;
+@media (max-width: 1100px) {
+    #foto {
+        margin-left: 1000px; 
     }
-    body{
-        background: rgb(0, 0, 0);
+
+}
+@media (max-width: 768px) {
+    .nombre {
+        padding-right: 0; 
+        font-size: 1.5rem; 
     }
-    .cabeza{
+
+    .container {
+        flex-direction: column; 
+    }
+
+    .music {
+        width: 100%; 
+    }
+    #video{
+        margin: 55px;
+
+    }
+    .estatic {
+        width: 100%;
+        position: static; 
+    }
+
+    #foto {
         display: none;
     }
-    .container{
-        display: none;
+
+    .music h2 {
+        margin-left: 0; 
+        font-size: 24px; 
+    }
+
+    .music p {
+        margin: 20px;
+        font-size: 1em; 
+    }
+    #tour{
+        height: 300px;
+        width: auto;
+    }
+    .tour h1{
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .nombre {
+        font-size: 1.2rem; 
+    }
+
+    .music h2 {
+        font-size: 20px; 
+    }
+
+    .music p {
+        margin: 10px; 
+        font-size: 0.9em; 
+    }
+
+    #foto {
+        height: 150px;
+        width: 200px; 
+    }
+    #video{
+        margin: 30px;
+
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .nombre {
+        font-size: 2.5rem; 
+    }
+
+    .music h2 {
+        font-size: 36px; 
+    }
+
+    .music p {
+        font-size: 1.5em; 
     }
 }
