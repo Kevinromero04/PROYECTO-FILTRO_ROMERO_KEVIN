@@ -1,38 +1,37 @@
 {
-    "1": {
-      "nombre": "Los Dioses",
-      "precio": 10.000,
-      "disponibilidad": true,
-      "cantidad": 10,
-      "imagen": "./discos/dis-dioses.png"
-    },
-    "2": {
-      "nombre": "Emmanuel",
-      "precio": 10.000,
-      "disponibilidad": true,
-      "cantidad": 10,
-      "imagen": "./discos/dis-emmanuel.png"
-    },
-    "3": {
-      "nombre": "Las leyendas nunca mueren",
-      "precio": 10.000,
-      "disponibilidad": true,
-      "cantidad": 10,
-      "imagen": "./discos/dis-llnm.png"
-    },
-    "4": {
-      "nombre": "Las leyendas nunca mueren 2",
-      "precio": 10.000,
-      "disponibilidad": true,
-      "cantidad": 10,
-      "imagen": "./discos/dis-llnm2.png"
-    },
-    "5": {
-      "nombre": "REAL HASTA LA MUERTE TEE",
-      "precio": 10.000,
-      "disponibilidad": true,
-      "cantidad": 10,
-      "imagen": "./discos/dis-rhlm.png"
-    }
+  "Los Dioses": {
+    "id": 1,
+    "precio": 10.000,
+    "disponibilidad": true,
+    "cantidad": 10,
+    "imagen": "./discos/dis-dioses.png"
+  },
+  "Emmanuel": {
+    "id": 2,
+    "precio": 10.000,
+    "disponibilidad": true,
+    "cantidad": 10,
+    "imagen": "./discos/dis-emmanuel.png"
+  },
+  "Las leyendas nunca mueren": {
+    "id": 3,
+    "precio": 10.000,
+    "disponibilidad": true,
+    "cantidad": 10,
+    "imagen": "./discos/dis-llnm.png"
+  },
+  "Las leyendas nunca mueren 2": {
+    "id": 4,
+    "precio": 10.000,
+    "disponibilidad": true,
+    "cantidad": 10,
+    "imagen": "./discos/dis-llnm2.png"
+  },
+  "REAL HASTA LA MUERTE TEE": {
+    "id": 5,
+    "precio": 10.000,
+    "disponibilidad": true,
+    "cantidad": 10,
+    "imagen": "./discos/dis-rhlm.png"
   }
-  
+}

@@ -1,62 +1,62 @@
 {
-  "1": {
-    "nombre": "Sudadera con capucha Real Hasta La Muerte",
+  "Sudadera con capucha Real Hasta La Muerte": {
+    "id": 1,
     "precio": 50.000,
     "disponibilidad": true,
     "cantidad": 10,
     "imagen": "https://www.anuelaa.com/cdn/shop/products/rhlmbrrlongsleeve_200x.jpg?v=1542764724"
   },
-  "2": {
-    "nombre": "RED AA TEE",
+  "RED AA TEE": {
+    "id": 2,
     "precio": 30.000,
     "disponibilidad": true,
     "cantidad": 10,
     "imagen": "https://www.anuelaa.com/cdn/shop/files/anuelblackred_400x.jpg?v=1699064823"
   },
-  "3": {
-    "nombre": "VDAAY WHITE REAL HASTA LA MUERTE TEE",
+  "VDAAY WHITE REAL HASTA LA MUERTE TEE": {
+    "id": 3,
     "precio": 30.000,
     "disponibilidad": true,
     "cantidad": 10,
     "imagen": "https://www.anuelaa.com/cdn/shop/products/image_700x.jpg?v=1676481399"
   },
-  "4": {
-    "nombre": "REAL HASTA LA MUERTE TEE",
+  "REAL HASTA LA MUERTE TEE": {
+    "id": 4,
     "precio": 30.000,
     "disponibilidad": true,
     "cantidad": 10,
     "imagen": "https://www.anuelaa.com/cdn/shop/products/Black-Real-Hasta-La-Muerte-web_600x.jpg?v=1581102702"
   },
-  "5": {
-    "nombre": "LEYANDA TROPHY TEE",
+  "LEYANDA TROPHY TEE": {
+    "id": 5,
     "precio": 25.000,
     "disponibilidad": true,
     "cantidad": 10,
     "imagen": "https://www.anuelaa.com/cdn/shop/products/image_79fef3ec-531e-4b12-b7bd-d69b830c03e4_700x.jpg?v=1669699153"
   },
-  "6": {
-    "nombre": "REAL HASTA LA MUERTE BEANIE",
+  "REAL HASTA LA MUERTE BEANIE": {
+    "id": 6,
     "precio": 20.000,
     "disponibilidad": true,
     "cantidad": 10,
     "imagen": "https://www.anuelaa.com/cdn/shop/products/beanie_blackred_700x.jpg?v=1500488586"
   },
-  "7": {
-    "nombre": "SOY LEYENDA BLACK TEE",
+  "SOY LEYENDA BLACK TEE": {
+    "id": 7,
     "precio": 25.000,
     "disponibilidad": true,
     "cantidad": 10,
     "imagen": "https://www.anuelaa.com/cdn/shop/products/image0_700x.jpg?v=1669240097"
   },
-  "8": {
-    "nombre": "BLACK DOBLE A DELUXE HOODIE",
+  "BLACK DOBLE A DELUXE HOODIE": {
+    "id": 8,
     "precio": 55.000,
     "disponibilidad": true,
     "cantidad": 10,
     "imagen": "https://www.anuelaa.com/cdn/shop/products/73421027-B58D-4C97-B6CE-F99F3E1056DE_700x.jpg?v=1658676299"
   },
-  "9": {
-    "nombre": "REAL HASTA LA MUERTE HOODIE",
+  "REAL HASTA LA MUERTE HOODIE": {
+    "id": 9,
     "precio": 50.000,
     "disponibilidad": true,
     "cantidad": 10,
