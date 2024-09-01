@@ -1,33 +1,41 @@
-@font-face{
+@font-face {
     font-family: 'againts';
     src: url(fuente/againts.otf);
     font-size: normal;
     font-weight: normal;
 }
+
 .ga-maamli-regular {
     font-family: "Ga Maamli", sans-serif;
     font-weight: 100;
     font-style: normal;
-  }
-  .rowdies-light {
+}
+
+.rowdies-light {
     font-family: "Rowdies", sans-serif;
     font-weight: 100;
     font-style: normal;
-  }
-body{
+}
+header{
+    width: 100%;
+}
+body {
     background: url(discos/anuel.jpeg);
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
-.cabeza{
+
+.cabeza {
     display: flex;
     justify-content: flex-end;
     font-family: "Rowdies", sans-serif;
     font-weight: 100;
-
 }
-.menu{
+
+.menu {
     display: flex;
     background: rgb(236, 30, 30);
     padding-right: 8%;
@@ -36,36 +44,37 @@ body{
     align-items: center;
     width: 500px;
     margin-top: 50px;
-
+    box-sizing: border-box;
 }
-li{
+
+li {
     list-style: none;
     padding: 10px;
     width: auto;
-
-
 }
-.inde{
+
+.inde {
     background: rgb(236, 30, 30);
     border-radius: 6px 0px 0px 6px;
     height: 60px;
     margin-top: 50px;
     color: black;
-
-
 }
-.album{
+
+.album {
     margin-top: 7px;
 }
-.borde:hover{
+
+.borde:hover {
     border: black solid 2px;
     height: 60px;
     box-shadow: 1px -10px 15px 1px black;
-    border-radius: 6px 6px 6px 6px;
+    border-radius: 6px;
     text-align: center;
     padding-top: 15px;
 }
-#escuchadas{
+
+#escuchadas {
     padding-top: 5px;
 }
 
@@ -73,109 +82,116 @@ li{
     background: white;
     display: grid;
     grid-template-areas: "uno dos tres"
-    "cuatro cinco seis";
+                         "cuatro cinco seis";
     border-radius: 0px 0px 0px 6px;
     position: absolute;
     width: 585px;
     margin-top: 5px;
-    border: black solid 2PX;
+    border: black solid 2px;
 }
-#uno{
+
+#uno {
     grid-area: uno;
     transition: color;
     transition-duration: 1s;
 }
-#dos{
+
+#dos {
     grid-area: dos;
-}#tres{
+}
+
+#tres {
     grid-area: tres;
-}#cuatro{
+}
+
+#cuatro {
     grid-area: cuatro;
-}#cinco{
+}
+
+#cinco {
     grid-area: cinco;
-}#seis{
+}
+
+#seis {
     grid-area: seis;
 }
-#uno a:hover{
-    color: blue;
-}
-#dos a:hover{
-    color: blue;
-}#tres a:hover{
-    color: blue;
-}#cuatro a:hover{
-    color: blue;
-}#cinco a:hover{
-    color: blue;
-}#seis:hover{
+
+#uno a:hover,
+#dos a:hover,
+#tres a:hover,
+#cuatro a:hover,
+#cinco a:hover,
+#seis:hover {
     color: blue;
 }
 
-.inde:hover .esconde{
+.inde:hover .esconde {
     position: relative;
     display: block;
-    margin: 0px;
+    margin: 0;
 }
-.inde:hover{
+
+.inde:hover {
     height: 60px;
     box-shadow: 1px -10px 15px 1px black;
     border-radius: 6px 0px 0px 0px;
 }
-.esconde{
-    display: none;
- }
- .album:hover{
-    height: 50px;
- }
 
-.hamburguesa:hover{
+.esconde {
+    display: none;
+}
+
+.album:hover {
+    height: 50px;
+}
+
+.hamburguesa:hover {
     border: black solid 1px;
     margin-top: 12px;
-
 }
-.division{
+
+.division {
     margin-top: 60px;
     display: grid;
     grid-template-areas: "izq dere";
 }
-.nombre{
+
+.nombre {
     font-family: "againts";
     color: rgb(0, 38, 255);
     margin-left: 30px;
-    rotate: -9deg;
+    transform: rotate(-9deg);
     width: 150px;
     margin-left: 150px;
     font-weight: 900;
-
-
-
 }
-.izq{
+
+.izq {
     display: flex;
     flex-direction: column;
     grid-area: izq;
     justify-content: flex-start;
     margin-left: 150px;
-
 }
-.izq h4{
+
+.izq h4 {
     color: blue;
     font-family: "againts";
     letter-spacing: 0.3em;
-    rotate: -9deg;
+    transform: rotate(-9deg);
     font-size: 30px;
     width: 450px;
     font-weight: 900;
-
 }
-.dere{
+
+.dere {
     display: flex;
     text-align: center;
     justify-content: center;
     margin-left: 180px;
-
 }
-.forma{
+
+.forma {
     display: flex;
     flex-direction: column;
     height: 550px;
@@ -187,7 +203,8 @@ li{
     background: rgb(0, 0, 0);
     margin-top: 50px;
 }
-.cuadro{
+
+.cuadro {
     display: flex;
     font-family: "Ga Maamli", sans-serif;
     font-size: 2em;
@@ -198,7 +215,8 @@ li{
     justify-content: center;
     align-items: center;
 }
-.izq p{
+
+.izq p {
     margin-top: 80px;
     font-family: "Ga Maamli", sans-serif;
     color: white;
@@ -206,34 +224,36 @@ li{
     width: 450px;
     text-align: center;
 }
-.menu a{
-    text-decoration: none;
-    color: black
-}
-@keyframes change-color{
-    5% {content:url(discos/emmanuel.jpg);}
-    10%{content: url(discos/Llnm.jpg);}
-    15%{content: url(discos/Llnm2.jpg);}
-    20%{content: url(discos/los-dioses.jpg);}
-    25%{content: url(discos/realhastalamuerte.jpg);}
-    30%{content: url(discos/rompecorazones.jpg);}
-    35%{content:url(discos/emmanuel.jpg);}
-    40%{content: url(discos/Llnm.jpg);}
-    45%{content: url(discos/Llnm2.jpg);}
-    50%{content: url(discos/los-dioses.jpg);}
-    55%{content: url(discos/realhastalamuerte.jpg);}
-    60%{content: url(discos/rompecorazones.jpg);}
-    65%{content:url(discos/emmanuel.jpg);}
-    70%{content: url(discos/Llnm.jpg);}
-    75%{content: url(discos/Llnm2.jpg);}
-    80%{content: url(discos/los-dioses.jpg);}
-    85%{content: url(discos/realhastalamuerte.jpg);}
-    90%{content: url(discos/rompecorazones.jpg);}
-    95%{content:url(discos/emmanuel.jpg);}
-    95%{content: url(discos/Llnm.jpg);}
 
+.menu a {
+    text-decoration: none;
+    color: black;
 }
-.anima{
+
+@keyframes change-color {
+    5% {content: url(discos/emmanuel.jpg);}
+    10% {content: url(discos/Llnm.jpg);}
+    15% {content: url(discos/Llnm2.jpg);}
+    20% {content: url(discos/los-dioses.jpg);}
+    25% {content: url(discos/realhastalamuerte.jpg);}
+    30% {content: url(discos/rompecorazones.jpg);}
+    35% {content: url(discos/emmanuel.jpg);}
+    40% {content: url(discos/Llnm.jpg);}
+    45% {content: url(discos/Llnm2.jpg);}
+    50% {content: url(discos/los-dioses.jpg);}
+    55% {content: url(discos/realhastalamuerte.jpg);}
+    60% {content: url(discos/rompecorazones.jpg);}
+    65% {content: url(discos/emmanuel.jpg);}
+    70% {content: url(discos/Llnm.jpg);}
+    75% {content: url(discos/Llnm2.jpg);}
+    80% {content: url(discos/los-dioses.jpg);}
+    85% {content: url(discos/realhastalamuerte.jpg);}
+    90% {content: url(discos/rompecorazones.jpg);}
+    95% {content: url(discos/emmanuel.jpg);}
+    95% {content: url(discos/Llnm.jpg);}
+}
+
+.anima {
     display: flex;
     width: 300px;
     height: 350px;
@@ -241,34 +261,161 @@ li{
     background-repeat: round;
     animation: change-color 11s ease 0s infinite;
 }
-.hamburguesa a{
+
+.hamburguesa a {
     text-decoration: none;
     color: black;
 }
-.alerta{
+
+.alerta {
     display: none;
 }
-@media(max-width: 600px){
-    .alerta{
-        display: block;
-        color: red;
-        border: black solid 5px;
-        align-items: center;
-        margin-top: 290px;
+
+/* Consultas de medios */
+
+/* Pantallas de tabletas en orientación vertical */
+@media (max-width: 768px) {
+    .menu {
+        width: 100%;
+        padding-right: 5%; 
+        margin-top: 30px; 
     }
-    .division{
-        display: none;
+
+    .hamburguesa {
+        width: 100%;
+        margin-top: 10px; 
     }
-    .nombre{
-        display: none;
+
+    .nombre {
+        width: 100px; 
+        margin-left: 20px; 
     }
-    .cabeza{
-        display: none;
+
+    .izq {
+        margin-left: 20px; 
     }
-    body{
-        background: white;
+
+    .izq h4 {
+        font-size: 24px; 
+        width: auto; 
     }
-    
+
+    .dere {
+        margin-left: 20px; 
+    }
+
+    .forma {
+        width: 90%; 
+        height: auto; 
+    }
+
+    .cuadro {
+        width: 90%; 
+        font-size: 1.5em; 
+    }
+
+    .izq p {
+        font-size: 30px; 
+        width: 90%; 
+    }
+    .inde{
+        margin-top: 30px;
+    }
 }
 
+@media (max-width: 480px) {
+    .menu {
+        width: 100%;
+        padding-right: 2%; 
+        margin-top: 20px; 
+    }
 
+    .hamburguesa {
+        width: 100%;
+        margin-top: 10px; 
+    }
+
+    .nombre {
+        width: 80px; 
+        margin-left: 10px; 
+    }
+
+    .izq {
+        margin-left: 10px; 
+    }
+
+    .izq h4 {
+        font-size: 20px; 
+        width: auto; 
+    }
+
+    .dere {
+        margin-left: 10px; 
+    }
+
+    .forma {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .cuadro {
+        width: 100%; 
+        font-size: 1.2em; 
+    }
+
+    .izq p {
+        font-size: 20px; 
+        width: 100%; 
+    }
+    .inde{
+        margin-top: 20px;
+    }
+    .division{
+        display: block;
+    }
+}
+
+@media (min-width: 1024px) {
+    .menu {
+        width: 500px; 
+        padding-right: 8%;
+        margin-top: 50px; 
+    }
+
+    .hamburguesa {
+        width: 585px; 
+        margin-top: 5px; 
+    }
+
+    .nombre {
+        width: 150px; 
+        margin-left: 150px; 
+    }
+
+    .izq {
+        margin-left: 150px; 
+    }
+
+    .izq h4 {
+        font-size: 30px;
+        width: 450px;
+    }
+
+    .dere {
+        margin-left: 180px; 
+    }
+
+    .forma {
+        width: 450px; 
+        height: 550px; 
+    }
+
+    .cuadro {
+        font-size: 2em; 
+    }
+
+    .izq p {
+        font-size: 40px; 
+        width: 450px; 
+    }
+}
